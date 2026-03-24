@@ -84,7 +84,7 @@ export default function Index() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   return (
-    <div className="min-h-screen bg-[#090909] text-white py-0">
+    <div className="min-h-screen bg-[#090909] text-white py-[19px] my-0">
       <Navbar />
 
       {/* HERO */}
@@ -132,12 +132,12 @@ export default function Index() {
       </section>
 
       {/* SERVER STATUS */}
-      <section className="relative z-10 -mt-6 max-w-7xl mx-auto px-4 mb-20 py-[39px] rounded-0">
+      <section className="relative z-10 -mt-6 max-w-7xl mx-auto px-4 py-[39px] rounded-0 my-0.5">
         <ServerStatus />
       </section>
 
       {/* COMMUNITY */}
-      <section className="max-w-7xl mx-auto px-4 mb-20 py-0">
+      <section className="max-w-7xl mx-auto px-4 py-0 my-[29px]">
         <div className="flex items-center gap-3 mb-8">
           <div className="w-1 h-6 bg-[#FF8C00]" />
           <h2 className="font-orbitron text-white text-xl font-bold tracking-widest uppercase">Сообщество</h2>
