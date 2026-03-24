@@ -132,7 +132,7 @@ export default function Index() {
       </section>
 
       {/* SERVER STATUS */}
-      <section className="relative z-10 -mt-6 max-w-7xl mx-auto px-4 mb-20 py-[50px]">
+      <section className="relative z-10 -mt-6 max-w-7xl mx-auto px-4 mb-20 py-[39px] rounded-0">
         <ServerStatus />
       </section>
 
