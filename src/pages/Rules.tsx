@@ -140,7 +140,7 @@ export default function Rules() {
       </div>
 
       {/* Tabs */}
-      <div className="max-w-4xl mx-auto px-4 mb-10">
+      <div className="max-w-4xl mx-auto px-4 py-1 my-3.5">
         <div className="flex border border-[#1e1e1e] p-1 bg-[#0d0d0d] w-fit">
           <button
             onClick={() => { setActiveTab("server"); setOpenCategory(1); }}
