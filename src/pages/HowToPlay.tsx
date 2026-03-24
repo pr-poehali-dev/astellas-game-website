@@ -72,7 +72,7 @@ export default function HowToPlay() {
       </div>
 
       {/* Steps */}
-      <section className="max-w-4xl mx-auto px-4 mb-20">
+      <section className="max-w-4xl mx-auto px-4 py-[18px] my-1">
         <div className="space-y-4">
           {steps.map((step, i) => (
             <div key={i} className="relative border border-[#1e1e1e] bg-[#0d0d0d] overflow-hidden">
