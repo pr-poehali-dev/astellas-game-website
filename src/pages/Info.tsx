@@ -79,7 +79,7 @@ export default function Info() {
       </div>
 
       {/* Server info table */}
-      <section className="max-w-6xl mx-auto px-4 mb-20">
+      <section className="max-w-6xl mx-auto px-4 py-[3px] my-[18px]">
         <div className="flex items-center gap-3 mb-6">
           <div className="w-1 h-6 bg-[#FF8C00]" />
           <h2 className="font-orbitron text-white text-xl font-bold tracking-widest uppercase">Параметры сервера</h2>
