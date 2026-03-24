@@ -133,7 +133,7 @@ export default function Guides() {
       </div>
 
       {/* Filter */}
-      <div className="max-w-6xl mx-auto px-4 mb-10">
+      <div className="max-w-6xl mx-auto px-4 my-2 py-4">
         <div className="flex flex-wrap gap-2">
           {categoryTabs.map((tab) => (
             <button
