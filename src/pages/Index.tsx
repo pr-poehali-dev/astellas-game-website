@@ -84,7 +84,7 @@ export default function Index() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   return (
-    <div className="min-h-screen bg-[#090909] text-white">
+    <div className="min-h-screen bg-[#090909] text-white py-0">
       <Navbar />
 
       {/* HERO */}
@@ -95,13 +95,13 @@ export default function Index() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#090909]/60 to-transparent" />
         </div>
         <div
-          className="absolute inset-0 opacity-20"
+          className="absolute inset-0 opacity-20 py-0"
           style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.4'/%3E%3C/svg%3E\")", backgroundSize: "150px" }}
         />
         <div className="absolute top-24 right-8 font-orbitron text-[#FF8C00]/20 text-[10px] tracking-[0.4em] uppercase rotate-90">
           CHERNARUS · 2035
         </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 pb-20 w-full animate-fade-in-up">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 w-full animate-fade-in-up py-[265px]">
           <div className="flex items-center gap-2 mb-4">
             <div className="w-8 h-px bg-[#FF8C00]" />
             <span className="font-orbitron text-[#FF8C00] text-xs tracking-[0.4em] uppercase">DayZ Standalone</span>
@@ -132,12 +132,12 @@ export default function Index() {
       </section>
 
       {/* SERVER STATUS */}
-      <section className="relative z-10 -mt-6 max-w-7xl mx-auto px-4 mb-20">
+      <section className="relative z-10 -mt-6 max-w-7xl mx-auto px-4 mb-20 py-[50px]">
         <ServerStatus />
       </section>
 
       {/* COMMUNITY */}
-      <section className="max-w-7xl mx-auto px-4 mb-20">
+      <section className="max-w-7xl mx-auto px-4 mb-20 py-0">
         <div className="flex items-center gap-3 mb-8">
           <div className="w-1 h-6 bg-[#FF8C00]" />
           <h2 className="font-orbitron text-white text-xl font-bold tracking-widest uppercase">Сообщество</h2>

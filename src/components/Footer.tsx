@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-[#1e1e1e] bg-[#060606] pt-12 pb-6 relative overflow-hidden">
+    <footer className="border-t border-[#1e1e1e] bg-[#060606] relative overflow-hidden py-[19px]">
       {/* BG decoration */}
       <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(255,140,0,0.03),transparent)] pointer-events-none" />
 
