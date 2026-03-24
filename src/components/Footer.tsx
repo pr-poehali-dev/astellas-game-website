@@ -95,9 +95,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-[#1e1e1e] pt-5 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="font-rc text-gray-600 text-xs tracking-wider">
-            © 2025 ASTELLAS · Все права защищены
-          </div>
+          <div className="font-rc text-gray-600 text-xs tracking-wider">© 2026 ASTELLAS · Все права защищены</div>
           <div className="flex items-center gap-4 font-rc text-xs text-gray-600">
             <Link to="/rules" className="hover:text-[#FF8C00] transition-colors">Правила</Link>
             <Link to="/info" className="hover:text-[#FF8C00] transition-colors">Информация</Link>
