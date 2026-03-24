@@ -104,7 +104,7 @@ export default function Promo() {
       </div>
 
       {/* How to use */}
-      <section className="max-w-4xl mx-auto px-4 mb-12">
+      <section className="max-w-4xl mx-auto px-4 py-[1px] my-5">
         <div className="border border-[#FF8C00]/20 bg-[#0d0a05] px-6 py-5 flex items-start gap-4">
           <div className="w-10 h-10 border border-[#FF8C00]/30 flex items-center justify-center shrink-0">
             <Icon name="Info" size={18} className="text-[#FF8C00]" />
